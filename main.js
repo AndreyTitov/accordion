@@ -4,5 +4,6 @@ $('.accordion').on('click', function(e){
     var href = $(this).attr("href");
 
     $(href).slideToggle('slow');
+    assadasd
 
 });
