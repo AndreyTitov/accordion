@@ -3,6 +3,6 @@ $('.accordion').on('click', function(e){
     
     var href = $(this).attr("href");
 
-    $(href).slideDown('slow');
+    $(href).slideToggle('slow');
 
 });
